@@ -1,0 +1,44 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <RootNamespace>nussigesfreeroam</RootNamespace>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <BaseOutputPath>C:\Users\nikla\Desktop\altv-freeroam\resources\nussigesfreeroam\server</BaseOutputPath>     
+    <OutputPath>$(BaseOutputPath)/</OutputPath>
+    <AppendTargetFrameworkToOutputPath>false</AppendTargetFrameworkToOutputPath>
+		<GenerateRuntimeConfigurationFiles>true</GenerateRuntimeConfigurationFiles>
+		<CopyLocalLockFileAssemblies>true</CopyLocalLockFileAssemblies>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AltV.Net" Version="16.0.1" />
+    <PackageReference Include="AltV.Net.Async" Version="16.0.1" />
+    <PackageReference Include="AltV.Net.Async.CodeGen" Version="16.0.1">
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+      <PrivateAssets>all</PrivateAssets>
+    </PackageReference>
+    <PackageReference Include="AltV.Net.CApi" Version="16.0.1" />
+    <PackageReference Include="AltV.Net.Client" Version="16.0.1" />
+    <PackageReference Include="AltV.Net.Client.Async" Version="16.0.1" />
+    <PackageReference Include="AltV.Net.ColShape" Version="16.0.1" />
+    <PackageReference Include="AltV.Net.EntitySync" Version="1.18.0" />
+    <PackageReference Include="AltV.Net.EntitySync.ServerEvent" Version="16.0.1" />
+    <PackageReference Include="AltV.Net.Interactions" Version="16.0.1" />
+    <PackageReference Include="AltV.Net.Resources.Chat.Api" Version="16.0.1" />
+    <PackageReference Include="AltV.Net.Sdk.Client" Version="16.0.1" />
+    <PackageReference Include="AltV.Net.Sdk.Shared" Version="16.0.1" />
+    <PackageReference Include="AltV.Net.Shared" Version="16.0.1" />
+    <PackageReference Include="AltV.Net.Templates" Version="16.0.1" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="6.0.7" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="6.0.7">
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+      <PrivateAssets>all</PrivateAssets>
+    </PackageReference>
+    <PackageReference Include="Microsoft.OData.ModelBuilder" Version="1.0.9" />
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
+    <PackageReference Include="Pomelo.EntityFrameworkCore.MySql" Version="6.0.2" />
+    <PackageReference Include="Pomelo.EntityFrameworkCore.MySql.Design" Version="1.1.2" />
+  </ItemGroup>
+
+</Project>

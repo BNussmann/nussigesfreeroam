@@ -1,0 +1,172 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\nikla\\Desktop\\altv-freeroam\\arbeitsmappe\\nussigesfreeroam.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\nikla\\Desktop\\altv-freeroam\\arbeitsmappe\\nussigesfreeroam.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\nikla\\Desktop\\altv-freeroam\\arbeitsmappe\\nussigesfreeroam.csproj",
+        "projectName": "nussigesfreeroam",
+        "projectPath": "C:\\Users\\nikla\\Desktop\\altv-freeroam\\arbeitsmappe\\nussigesfreeroam.csproj",
+        "packagesPath": "C:\\Users\\nikla\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\nikla\\Desktop\\altv-freeroam\\arbeitsmappe\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\nikla\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "AltV.Net": {
+              "target": "Package",
+              "version": "[16.0.1, )"
+            },
+            "AltV.Net.Async": {
+              "target": "Package",
+              "version": "[16.0.1, )"
+            },
+            "AltV.Net.Async.CodeGen": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[16.0.1, )"
+            },
+            "AltV.Net.CApi": {
+              "target": "Package",
+              "version": "[16.0.1, )"
+            },
+            "AltV.Net.Client": {
+              "target": "Package",
+              "version": "[16.0.1, )"
+            },
+            "AltV.Net.Client.Async": {
+              "target": "Package",
+              "version": "[16.0.1, )"
+            },
+            "AltV.Net.ColShape": {
+              "target": "Package",
+              "version": "[16.0.1, )"
+            },
+            "AltV.Net.EntitySync": {
+              "target": "Package",
+              "version": "[1.18.0, )"
+            },
+            "AltV.Net.EntitySync.ServerEvent": {
+              "target": "Package",
+              "version": "[16.0.1, )"
+            },
+            "AltV.Net.Interactions": {
+              "target": "Package",
+              "version": "[16.0.1, )"
+            },
+            "AltV.Net.Resources.Chat.Api": {
+              "target": "Package",
+              "version": "[16.0.1, )"
+            },
+            "AltV.Net.Sdk.Client": {
+              "target": "Package",
+              "version": "[16.0.1, )"
+            },
+            "AltV.Net.Sdk.Shared": {
+              "target": "Package",
+              "version": "[16.0.1, )"
+            },
+            "AltV.Net.Shared": {
+              "target": "Package",
+              "version": "[16.0.1, )"
+            },
+            "AltV.Net.Templates": {
+              "target": "Package",
+              "version": "[16.0.1, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[6.0.7, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.0.7, )"
+            },
+            "Microsoft.OData.ModelBuilder": {
+              "target": "Package",
+              "version": "[1.0.9, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.3, )"
+            },
+            "Pomelo.EntityFrameworkCore.MySql": {
+              "target": "Package",
+              "version": "[6.0.2, )"
+            },
+            "Pomelo.EntityFrameworkCore.MySql.Design": {
+              "target": "Package",
+              "version": "[1.1.2, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[6.0.28, 6.0.28]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[6.0.28, 6.0.28]"
+            },
+            {
+              "name": "Microsoft.WindowsDesktop.App.Ref",
+              "version": "[6.0.28, 6.0.28]"
+            }
+          ],
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.203\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
